@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-15T11:43:06 IST" name="Suite" finished-at="2026-06-15T11:43:12 IST" duration-ms="5438">
+    <groups>
+      <group name="smoke">
+        <method signature="T1.amazon()[pri:0, instance:exe.T1@71d44a3]" name="amazon" class="exe.T1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-06-15T11:43:06 IST" name="Test1" finished-at="2026-06-15T11:43:09 IST" duration-ms="2643">
+      <class name="exe.T1">
+        <test-method signature="amazon()[pri:0, instance:exe.T1@71d44a3]" started-at="2026-06-15T11:43:06 IST" name="amazon" finished-at="2026-06-15T11:43:09 IST" duration-ms="2591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+      </class> <!-- exe.T1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2026-06-15T11:43:06 IST" name="Test2" finished-at="2026-06-15T11:43:12 IST" duration-ms="5438">
+      <class name="exe.T2">
+        <test-method signature="myntra()[pri:0, instance:exe.T2@fbd1f6]" started-at="2026-06-15T11:43:06 IST" name="myntra" finished-at="2026-06-15T11:43:12 IST" duration-ms="5392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myntra -->
+      </class> <!-- exe.T2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
