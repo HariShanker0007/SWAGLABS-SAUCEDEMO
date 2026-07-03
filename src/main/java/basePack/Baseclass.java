@@ -59,6 +59,10 @@ public class Baseclass {
 
 		if (BROWSER.equalsIgnoreCase("Chrome")) {
 			ChromeOptions options = new ChromeOptions();
+			    options.addArguments("--headless=new");
+			    options.addArguments("--disable-gpu");
+			    options.addArguments("--no-sandbox");
+			    options.addArguments("--disable-dev-shm-usage");
 			Map<String, Object> prefs = new HashMap<>();
 			prefs.put("profile.password_manager_leak_detection", false);
 			options.setExperimentalOption("prefs", prefs);
