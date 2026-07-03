@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jul 03 12:01:53 IST 2026</td>
+<td>Started on:</td><td>Fri Jul 03 12:24:57 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>21 seconds (21671 ms)</td>
+<tr><td>Total time:</td><td>10 seconds (10290 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -77,92 +77,82 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='sauce.DataProvSauceDemoTest.add2Prod()'><b>add2Prod</b><br>Test class: sauce.DataProvSauceDemoTest<br/>
-<a href="#Output-137659163" onClick='toggleBox("Output-137659163", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1634411546" onClick='toggleBox("Output-1634411546", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-137659163" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-137659163">
+<a href="#Output-1634411546" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1634411546">
 =====add2Prod Execution STARTED=====<br/>
-=====add2Prod FAILURE=====<br/>
+=====add2ProdSUCCESS=====<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkout&quot;}
-  (Session info: chrome=149.0.7827.201)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [009c0be53fcae2141f8493e0f4f2ff6e, findElement {value=checkout, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\JSPIDE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65007}, goog:processID: 1632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65007/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 009c0be53fcae2141f8493e0f4f2ff6e
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
-	at sauce.DataProvSauceDemoTest.add2Prod(DataProvSauceDemoTest.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace137659163", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace137659163'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkout&quot;}
-  (Session info: chrome=149.0.7827.201)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [009c0be53fcae2141f8493e0f4f2ff6e, findElement {value=checkout, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.201, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\JSPIDE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65007}, goog:processID: 1632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65007/devtoo..., se:cdpVersion: 149.0.7827.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 009c0be53fcae2141f8493e0f4f2ff6e
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
-	at sauce.DataProvSauceDemoTest.add2Prod(DataProvSauceDemoTest.java:29)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>16</td>
+<td></td>
+<td>1</td>
 <td>sauce.DataProvSauceDemoTest@a9cd3b1</td></tr>
+<tr>
+<td title='sauce.DataProvSauceDemoTest.add4Prod()'><b>add4Prod</b><br>Test class: sauce.DataProvSauceDemoTest<br/>
+<a href="#Output-497333939" onClick='toggleBox("Output-497333939", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-497333939" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-497333939">
+=====add4Prod Execution STARTED=====<br/>
+=====add4ProdSUCCESS=====<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sauce.DataProvSauceDemoTest@a9cd3b1</td></tr>
+<tr>
+<td title='sauce.SauceDemoTest.add2Prod()'><b>add2Prod</b><br>Test class: sauce.SauceDemoTest<br/>
+<a href="#Output-1054913783" onClick='toggleBox("Output-1054913783", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1054913783" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1054913783">
+=====add2Prod Execution STARTED=====<br/>
+=====add2ProdSUCCESS=====<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sauce.SauceDemoTest@6580cfdd</td></tr>
+<tr>
+<td title='sauce.DataProvSauceDemoTest.add6Prod()'><b>add6Prod</b><br>Test class: sauce.DataProvSauceDemoTest<br/>
+<a href="#Output-333085360" onClick='toggleBox("Output-333085360", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-333085360" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-333085360">
+=====add6Prod Execution STARTED=====<br/>
+=====add6ProdSUCCESS=====<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sauce.DataProvSauceDemoTest@a9cd3b1</td></tr>
+<tr>
+<td title='sauce.SauceDemoTest.add4Prod()'><b>add4Prod</b><br>Test class: sauce.SauceDemoTest<br/>
+<a href="#Output-117052390" onClick='toggleBox("Output-117052390", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-117052390" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-117052390">
+=====add4Prod Execution STARTED=====<br/>
+=====add4ProdSUCCESS=====<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sauce.SauceDemoTest@6580cfdd</td></tr>
+<tr>
+<td title='sauce.SauceDemoTest.add6Prod()'><b>add6Prod</b><br>Test class: sauce.SauceDemoTest<br/>
+<a href="#Output-1077688833" onClick='toggleBox("Output-1077688833", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1077688833" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1077688833">
+=====add6Prod Execution STARTED=====<br/>
+=====add6ProdSUCCESS=====<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sauce.SauceDemoTest@6580cfdd</td></tr>
 </table><p>
 </body>
 </html>
