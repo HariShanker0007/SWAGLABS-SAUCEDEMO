@@ -1,28 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Connected To DataBase]]>
+    </line>
+    <line>
+      <![CDATA[Pre-Conditions Satisfied]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Login Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Logged Out Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Closed the browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Post-Conditions Satisfied]]>
+    </line>
+    <line>
+      <![CDATA[Disconnected To DataBase ]]>
+    </line>
   </reporter-output>
-  <suite started-at="2026-06-15T11:43:06 IST" name="Suite" finished-at="2026-06-15T11:43:12 IST" duration-ms="5438">
+  <suite started-at="2026-06-26T11:43:20 IST" name="Default suite" finished-at="2026-06-26T11:46:22 IST" duration-ms="181747">
     <groups>
-      <group name="smoke">
-        <method signature="T1.amazon()[pri:0, instance:exe.T1@71d44a3]" name="amazon" class="exe.T1"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-06-15T11:43:06 IST" name="Test1" finished-at="2026-06-15T11:43:09 IST" duration-ms="2643">
-      <class name="exe.T1">
-        <test-method signature="amazon()[pri:0, instance:exe.T1@71d44a3]" started-at="2026-06-15T11:43:06 IST" name="amazon" finished-at="2026-06-15T11:43:09 IST" duration-ms="2591" status="PASS">
+    <test started-at="2026-06-26T11:43:20 IST" name="Default test" finished-at="2026-06-26T11:46:22 IST" duration-ms="181747">
+      <class name="sauce.SauceDemoTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:sauce.SauceDemoTest@4b2bac3f]" started-at="2026-06-26T11:43:20 IST" name="beforeSuite" finished-at="2026-06-26T11:43:20 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Connected To DataBase]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:sauce.SauceDemoTest@4b2bac3f]" started-at="2026-06-26T11:43:20 IST" name="beforeTest" finished-at="2026-06-26T11:43:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Pre-Conditions Satisfied]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:sauce.SauceDemoTest@4b2bac3f]" started-at="2026-06-26T11:43:20 IST" name="beforeClass" finished-at="2026-06-26T11:46:16 IST" duration-ms="175722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sauce.SauceDemoTest@4b2bac3f]" started-at="2026-06-26T11:46:16 IST" name="beforeMethod" finished-at="2026-06-26T11:46:18 IST" duration-ms="2241" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="add2Prod()[pri:0, instance:sauce.SauceDemoTest@4b2bac3f]" started-at="2026-06-26T11:46:18 IST" name="add2Prod" finished-at="2026-06-26T11:46:21 IST" duration-ms="2574" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- amazon -->
-      </class> <!-- exe.T1 -->
-    </test> <!-- Test1 -->
-    <test started-at="2026-06-15T11:43:06 IST" name="Test2" finished-at="2026-06-15T11:43:12 IST" duration-ms="5438">
-      <class name="exe.T2">
-        <test-method signature="myntra()[pri:0, instance:exe.T2@fbd1f6]" started-at="2026-06-15T11:43:06 IST" name="myntra" finished-at="2026-06-15T11:43:12 IST" duration-ms="5392" status="PASS">
+        </test-method> <!-- add2Prod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sauce.SauceDemoTest@4b2bac3f]" started-at="2026-06-26T11:46:21 IST" name="afterMethod" finished-at="2026-06-26T11:46:21 IST" duration-ms="239" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Logged Out Successfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- myntra -->
-      </class> <!-- exe.T2 -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:sauce.SauceDemoTest@4b2bac3f]" started-at="2026-06-26T11:46:21 IST" name="afterClass" finished-at="2026-06-26T11:46:22 IST" duration-ms="912" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed the browser Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:sauce.SauceDemoTest@4b2bac3f]" started-at="2026-06-26T11:46:22 IST" name="afterTest" finished-at="2026-06-26T11:46:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Post-Conditions Satisfied]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:sauce.SauceDemoTest@4b2bac3f]" started-at="2026-06-26T11:46:22 IST" name="afterSuite" finished-at="2026-06-26T11:46:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Disconnected To DataBase ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- sauce.SauceDemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

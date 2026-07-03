@@ -8,17 +8,22 @@ public class T1 {
 
 	public WebDriver driver = null;
 
-	@Test(groups = "smoke")
-	public void amazon() {
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://www.amazon.com/");
-	}
-
-	@Test
-	public void flipkart() {
+	@Test(priority = 1)
+	public void flipkart() throws InterruptedException {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.flipkart.com/");
+		Thread.sleep(2000);
+		driver.quit();
 	}
+
+	@Test()
+	public void amazon() throws InterruptedException {
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.amazon.com/");
+		Thread.sleep(2000);
+		driver.quit();
+	}
+
 }

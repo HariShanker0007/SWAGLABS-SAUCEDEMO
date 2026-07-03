@@ -5,10 +5,14 @@
     <classes>
       <class name="sauce.SauceDemoTest">
         <methods>
+          <include name="beforeMethod"/>
           <include name="beforeClass"/>
-          <include name="add6Prod"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
           <include name="add2Prod"/>
-          <include name="add4Prod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- sauce.SauceDemoTest -->

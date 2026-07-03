@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="sauce.DataProvSauceDemoTest">
+        <methods>
+          <include name="add2Prod"/>
+          <include name="add4Prod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="add6Prod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- sauce.DataProvSauceDemoTest -->
+      <class name="sauce.SauceDemoTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="add6Prod"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="add2Prod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="add4Prod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- sauce.SauceDemoTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

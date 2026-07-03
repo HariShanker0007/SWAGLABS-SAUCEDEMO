@@ -11,9 +11,9 @@
   </test> <!-- Test -->
    <test thread-count="2" parallel="tests" name="Test2">
     <classes>
-      <class name="exe.T2"/>
+      <class name="exe.T1"/>
        <methods>
-      <include name ="myntra"/>
+      <include name ="flipkart"/>
       </methods>
     </classes>
   </test> <!-- Test -->
