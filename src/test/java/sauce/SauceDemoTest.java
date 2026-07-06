@@ -57,7 +57,11 @@ public class SauceDemoTest extends Baseclass {
 
 		driver.findElement(By.id("finish")).click();
 	}
-
+	
+	/**
+	 * @author Hari
+	 * @throws Throwable
+	 */
 	@Test
 	public void add6Prod() throws Throwable {
 

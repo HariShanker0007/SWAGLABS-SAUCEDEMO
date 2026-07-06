@@ -7,6 +7,15 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelUtility {
 
+	/**
+	 * This Program is used to Read the Data from Excel Sheet this is a Generic Utility for excel
+	 * @param SheetName
+	 * @param rowNo
+	 * @param cellNo
+	 * @return String
+	 * @throws Throwable
+	 * @author Hari
+	 */
 	public String toReadDataFromExcelFile(String SheetName, int rowNo, int cellNo) throws Throwable {
 		FileInputStream fis = new FileInputStream("C:\\Users\\JspidersPC\\Desktop\\SaucePropList.xlsx");
 		Workbook wb = WorkbookFactory.create(fis);
